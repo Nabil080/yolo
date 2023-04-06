@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Document</title>
-</head>
-<body>
-    <navbar class='flex flex-col md:flex-row absolute top-5 w-full md:items-start md:justify-between max-w-[1000px] md:left-[50%] md:translate-x-[-50%]'>
+    <navbar class='z-50 flex flex-col md:flex-row absolute top-5 w-full md:items-start md:justify-between max-w-[1000px] md:left-[50%] md:translate-x-[-50%]'>
         <div class='flex items-start ml-5 mr-3 justify-between'>
             <div class='flex items-start'>
                 <div class='flex flex-col text-white bg-black text-3xl px-5 pt-1 pb-5 w-fit font-bold'>
@@ -50,5 +40,3 @@
             </div>
         </div>
     </navbar>
-</body>
-</html>
