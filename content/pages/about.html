@@ -82,10 +82,15 @@
         });
 
         window.addEventListener('scroll', (event) => {
-                elements.forEach(element => {
-                element.classList.add('translate-y-0', 'duration-1000', 'opacity-100');
-                });
+            elements.forEach(element => {
+                const rect = element.getBoundingClientRect();
+                const isVisible = rect.top < window.innerHeight && rect.bottom >= -10;
+                if (isVisible) {
+                    element.classList.add('translate-y-0', 'duration-1000', 'opacity-100');
+                }
+            });
         });
+
         
     </script> 
 
