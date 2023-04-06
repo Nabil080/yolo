@@ -13,7 +13,7 @@
                     <div class='w-[12.5px] h-[1.5px] -mt-[8px] bg-green-400'>
                     </div>
                 </div>
-                <img src='/yolo-1/asset/img/logo/panier.png' class='w-7 ml-2 mt-1 md:hidden'>
+                <img src='/yolo/asset/img/logo/panier.png' class='w-7 ml-2 mt-1 md:hidden'>
             </div>
             <div class='flex flex-col gap-[6px] p-3 border border-white bg-black md:hidden'>
                 <span class='py-px w-5 rounded-full bg-white'></span>
@@ -27,16 +27,16 @@
                     <form>
                         <input type='text' class='placeholder:text-black placeholder:uppercase hover:bg-white hover:outline-black hover:outline-1 hover:outline placeholder:font-bold tracking-widest w-full py-2 px-3' placeholder="Recherche...">
                     </form>
-                    <img src='/yolo-1/asset/img/logo/loupe.png' class='absolute w-4 right-2 md:right-4 bottom-3'>
+                    <img src='/yolo/asset/img/logo/loupe.png' class='absolute w-4 right-2 md:right-4 bottom-3'>
                 </div>
-                <img src='/yolo-1/asset/img/logo/panier.png' class='w-8 ml-2 mt-1 hidden md:inline-block'>
+                <img src='/yolo/asset/img/logo/panier.png' class='w-8 ml-2 mt-1 hidden md:inline-block'>
             </div>
             <div class=''>
-                <span>accueil</span>
-                <span>boutique</span>
-                <span>notre histoire</span>
-                <span>blog</span>
-                <span>service client</span>
+                <a href="/yolo/index.php"><span>accueil</span></a>
+                <a href="/yolo/content/pages/shop.html"><span>boutique</span></a>
+                <a href="/yolo/content/pages/about.html"><span>notre histoire</span></a>
+                <a href="/yolo/"><span>blog</span></a>
+                <a href="/yolo/"><span>service client</span></a>
             </div>
         </div>
     </navbar>
