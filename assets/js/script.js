@@ -21,3 +21,4 @@ function collapseTwo(){
     const collapse = document.querySelector("#two");
     collapse.classList.toggle("hidden")
 }
+
