@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
         theme: {
+            fontFamily: {
+              roboto : 'Roboto',
+              title : 'Lato',
+            },
             extend: {
             colors: {
             }
@@ -17,7 +22,52 @@
     </script>
     <title>Document</title>
 </head>
-<body>
-    
+<body class="overflow-x-hidden">
+    <header class="relative h-[110vh]">
+        <h1 class="absolute Lato top-[50vh] text-8xl left-[40%] text-center font-bold uppercase leading-[4.5rem] w-1/4 text-white tracking-widest z-10"><span class="text-gray-950">Rois</span> de la route</h1>
+        <button class="absolute Roboto top-[85vh] text-2xl left-[47%] border-4 text-white p-y-4 px-8 border-white z-10">Acheter</button>
+        <a class="fixed Roboto bottom-[2vh] text-2xl right-[1%] p-4 text-white bg-black font-bold shadow z-50 shadow-white tracking-widest z-10 uppercase" >Discutez avec no...</a>
+        <video autoplay muted loop class="h-[242vh] blur-sm opacity-85 absolute top-0 object-cover z-0">
+            <source src="assets/pexels-artem-podrez-4824358-3840x2160-30fps.mp4" type="video/mp4">
+        </video>
+        
+    </header>
+        <div class="bg-white h-[130vh] z-10 relative">
+            <div class="w-[60vw] h-[70vh] mx-auto relative pt-16">
+                <div class="bg-gray-200 w-10/12 ml-auto py-24">
+                    <h3 class="tracking-[0.5rem] -left-5 text-6xl top-28 absolute uppercase font-bold roboto w-1/4 leading-[3.5rem]">
+                        <span class="text-green-400">Nouvelle</span> Colle-<br> ction 
+                    </h3>
+                    <a class=" absolute Roboto text-xl bottom-32 -left-4 px-8 py-2 text-white bg-black tracking-widest uppercase">Tout voir</a>
+                    <div >
+                        <img src="assets/1e47b2_ab0af0b792c54ff19237dfffef6d1657 (1).webp" class="w-[70%] ml-auto">
+                    </div>
+                </div>
+                <div class="grid grid-cols-4 mt-16 h-[70vh] gap-8">
+                <a href=""><img src="assets/1.webp"></a>
+                <a href=""><img src="assets/2.webp"></a>
+                <a href=""><img src="assets/3.webp"></a>
+                <a href=""><img src="assets/4.webp"></a>
+                </div>
+            </div>
+        </div>
+    <section class="bg-[url('assets/part2.webp')] bg-fixed bg-cover h-[100vh] w-[100vw] z-0 relative">
+        <div class="block absolute top-[20%] left-[50vw] w-[40%] bg-black z-10 px-24">
+            <h3 class="tracking-[1rem] -left-16 top-4 text-6xl absolute uppercase text-white font-bold roboto w-1/4 leading-[3.5rem]">
+                A<br> propos
+            </h3>
+            <p class="text-white block pt-[40%] py-16">
+                Paragraphe. Vous pouvez le modifier et ajouter votre propre texte. Double-cliquez ici ou cliquez sur « Modifier le texte » pour ajouter votre contenu et personnaliser la police. C'est l'espace idéal pour raconter une histoire et vous présenter à vos visiteurs.
+            </p>
+            <a class=" absolute Roboto text-md right-12 -bottom-4 px-8 py-2 text-black bg-white tracking-widest uppercase">Notre Histoire</a>
+
+        </div>
+    </section>
+    <section>
+        <div class="bg-[url('assets/roller2.webp')] h-[45vh] w-[100vw] bg-cover flex justify-center items-center">
+            <a href="" class="text-4xl font-bold uppercase tracking-widest">Nous contacter</a>
+        </div>
+        
+    </section>
 </body>
 </html>
