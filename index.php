@@ -23,6 +23,7 @@
     <title>Document</title>
 </head>
 <body class="overflow-x-hidden w-[100vw]">
+<?php include('content/include/navbar.php') ?>
     <header class="relative h-[100vh] md:h-[110vh]">
         <h1 class="absolute Lato w-1/2 text-5xl md:text-8xl top-[40%] md:top-[30%] right-[50%] translate-x-[50%] translate-y-[50%] text-center font-bold uppercase md:leading-[4.5rem] md:w-1/4 text-white tracking-widest z-10"><span class="text-gray-950">Rois<br></span> de la route</h1>
         <button class="absolute Roboto md:top-[85vh] top-[70%] right-[50%] translate-x-[50%] translate-y-[50%]  text-md  border-4 text-white py-2 px-16 border-white z-10 hover:bg-white hover:text-black transition-all uppercase">Acheter</button>
